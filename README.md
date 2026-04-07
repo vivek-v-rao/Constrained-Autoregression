@@ -180,17 +180,3 @@ If no column is specified, the first column is used.
 - When `descending=True`, exact gradient and Hessian information are supplied to the optimizer for the quadratic objective.
 - For simple numeric text files with one value per line, `xfit_ar_data.py` uses `numpy.loadtxt` by default when no header is assumed.
 
-## Possible extensions
-
-Natural next steps include:
-
-- automatic lag-order selection
-- rolling or expanding window forecasts
-- multi-step forecasting
-- comparison with `statsmodels`
-- support for additional linear constraints
-- packaging as an installable module
-
-## License
-
-Add the license of your choice, for example MIT.
